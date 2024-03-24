@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA02B4632BB0D00400517BCB /* ReduxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B45B2BB0D00400517BCB /* ReduxStore.swift */; };
+		BA02B4642BB0D00400517BCB /* ReduxReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B45C2BB0D00400517BCB /* ReduxReducer.swift */; };
+		BA02B4682BB0D00400517BCB /* ReduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4602BB0D00400517BCB /* ReduxView.swift */; };
+		BA02B4692BB0D00400517BCB /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4612BB0D00400517BCB /* ReduxState.swift */; };
+		BA02B46A2BB0D00400517BCB /* ReduxAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4622BB0D00400517BCB /* ReduxAction.swift */; };
+		BA02B46F2BB0D38A00517BCB /* ArchitectureSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B46E2BB0D38A00517BCB /* ArchitectureSelectionView.swift */; };
+		BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */; };
+		BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4722BB0D45400517BCB /* Store_Redux.swift */; };
+		BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4762BB0D4FB00517BCB /* Reducer.swift */; };
+		BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */; };
+		BAE67D442BAF0F9500C8A696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE67D432BAF0F9500C8A696 /* Assets.xcassets */; };
+		BAE67D482BAF0F9500C8A696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE67D472BAF0F9500C8A696 /* Preview Assets.xcassets */; };
+		BAE67D522BAF0F9500C8A696 /* FluxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D512BAF0F9500C8A696 /* FluxSwiftTests.swift */; };
+		BAE67D5C2BAF0F9500C8A696 /* FluxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D5B2BAF0F9500C8A696 /* FluxSwiftUITests.swift */; };
+		BAE67D5E2BAF0F9500C8A696 /* FluxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D5D2BAF0F9500C8A696 /* FluxSwiftUITestsLaunchTests.swift */; };
+		BAE67DBF2BB0947F00C8A696 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67DBE2BB0947F00C8A696 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE67D4E2BAF0F9500C8A696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE67D342BAF0F9400C8A696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE67D3B2BAF0F9400C8A696;
+			remoteInfo = FluxSwift;
+		};
+		BAE67D582BAF0F9500C8A696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE67D342BAF0F9400C8A696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE67D3B2BAF0F9400C8A696;
+			remoteInfo = FluxSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA02B45B2BB0D00400517BCB /* ReduxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxStore.swift; sourceTree = "<group>"; };
+		BA02B45C2BB0D00400517BCB /* ReduxReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxReducer.swift; sourceTree = "<group>"; };
+		BA02B4602BB0D00400517BCB /* ReduxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxView.swift; sourceTree = "<group>"; };
+		BA02B4612BB0D00400517BCB /* ReduxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
+		BA02B4622BB0D00400517BCB /* ReduxAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxAction.swift; sourceTree = "<group>"; };
+		BA02B46E2BB0D38A00517BCB /* ArchitectureSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureSelectionView.swift; sourceTree = "<group>"; };
+		BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action_Redux.swift; sourceTree = "<group>"; };
+		BA02B4722BB0D45400517BCB /* Store_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store_Redux.swift; sourceTree = "<group>"; };
+		BA02B4762BB0D4FB00517BCB /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		BAE67D3C2BAF0F9400C8A696 /* FluxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSwiftApp.swift; sourceTree = "<group>"; };
+		BAE67D432BAF0F9500C8A696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE67D452BAF0F9500C8A696 /* FluxSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FluxSwift.entitlements; sourceTree = "<group>"; };
+		BAE67D472BAF0F9500C8A696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAE67D4D2BAF0F9500C8A696 /* FluxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE67D512BAF0F9500C8A696 /* FluxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSwiftTests.swift; sourceTree = "<group>"; };
+		BAE67D572BAF0F9500C8A696 /* FluxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE67D5B2BAF0F9500C8A696 /* FluxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSwiftUITests.swift; sourceTree = "<group>"; };
+		BAE67D5D2BAF0F9500C8A696 /* FluxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAE67DBE2BB0947F00C8A696 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE67D392BAF0F9400C8A696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE67D4A2BAF0F9500C8A696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE67D542BAF0F9500C8A696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA02B45A2BB0D00400517BCB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA02B4602BB0D00400517BCB /* ReduxView.swift */,
+				BA02B4622BB0D00400517BCB /* ReduxAction.swift */,
+				BA02B45B2BB0D00400517BCB /* ReduxStore.swift */,
+				BA02B45C2BB0D00400517BCB /* ReduxReducer.swift */,
+				BA02B4612BB0D00400517BCB /* ReduxState.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		BA02B4742BB0D49D00517BCB /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				BA02B45A2BB0D00400517BCB /* Example */,
+				BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */,
+				BA02B4722BB0D45400517BCB /* Store_Redux.swift */,
+				BA02B4762BB0D4FB00517BCB /* Reducer.swift */,
+			);
+			name = Redux;
+			path = Redux/Redux;
+			sourceTree = "<group>";
+		};
+		BAE67D332BAF0F9400C8A696 = {
+			isa = PBXGroup;
+			children = (
+				BAE67D3E2BAF0F9400C8A696 /* FluxSwift */,
+				BAE67D502BAF0F9500C8A696 /* FluxSwiftTests */,
+				BAE67D5A2BAF0F9500C8A696 /* FluxSwiftUITests */,
+				BAE67D3D2BAF0F9400C8A696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE67D3D2BAF0F9400C8A696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE67D3C2BAF0F9400C8A696 /* FluxSwift.app */,
+				BAE67D4D2BAF0F9500C8A696 /* FluxSwiftTests.xctest */,
+				BAE67D572BAF0F9500C8A696 /* FluxSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE67D3E2BAF0F9400C8A696 /* FluxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */,
+				BA02B46E2BB0D38A00517BCB /* ArchitectureSelectionView.swift */,
+				BA02B4742BB0D49D00517BCB /* Redux */,
+				BAE67DBE2BB0947F00C8A696 /* Player.swift */,
+				BAE67D432BAF0F9500C8A696 /* Assets.xcassets */,
+				BAE67D452BAF0F9500C8A696 /* FluxSwift.entitlements */,
+				BAE67D462BAF0F9500C8A696 /* Preview Content */,
+			);
+			path = FluxSwift;
+			sourceTree = "<group>";
+		};
+		BAE67D462BAF0F9500C8A696 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAE67D472BAF0F9500C8A696 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAE67D502BAF0F9500C8A696 /* FluxSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE67D512BAF0F9500C8A696 /* FluxSwiftTests.swift */,
+			);
+			path = FluxSwiftTests;
+			sourceTree = "<group>";
+		};
+		BAE67D5A2BAF0F9500C8A696 /* FluxSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE67D5B2BAF0F9500C8A696 /* FluxSwiftUITests.swift */,
+				BAE67D5D2BAF0F9500C8A696 /* FluxSwiftUITestsLaunchTests.swift */,
+			);
+			path = FluxSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE67D3B2BAF0F9400C8A696 /* FluxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE67D612BAF0F9500C8A696 /* Build configuration list for PBXNativeTarget "FluxSwift" */;
+			buildPhases = (
+				BAE67D382BAF0F9400C8A696 /* Sources */,
+				BAE67D392BAF0F9400C8A696 /* Frameworks */,
+				BAE67D3A2BAF0F9400C8A696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluxSwift;
+			productName = FluxSwift;
+			productReference = BAE67D3C2BAF0F9400C8A696 /* FluxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE67D4C2BAF0F9500C8A696 /* FluxSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE67D642BAF0F9500C8A696 /* Build configuration list for PBXNativeTarget "FluxSwiftTests" */;
+			buildPhases = (
+				BAE67D492BAF0F9500C8A696 /* Sources */,
+				BAE67D4A2BAF0F9500C8A696 /* Frameworks */,
+				BAE67D4B2BAF0F9500C8A696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE67D4F2BAF0F9500C8A696 /* PBXTargetDependency */,
+			);
+			name = FluxSwiftTests;
+			productName = FluxSwiftTests;
+			productReference = BAE67D4D2BAF0F9500C8A696 /* FluxSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE67D562BAF0F9500C8A696 /* FluxSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE67D672BAF0F9500C8A696 /* Build configuration list for PBXNativeTarget "FluxSwiftUITests" */;
+			buildPhases = (
+				BAE67D532BAF0F9500C8A696 /* Sources */,
+				BAE67D542BAF0F9500C8A696 /* Frameworks */,
+				BAE67D552BAF0F9500C8A696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE67D592BAF0F9500C8A696 /* PBXTargetDependency */,
+			);
+			name = FluxSwiftUITests;
+			productName = FluxSwiftUITests;
+			productReference = BAE67D572BAF0F9500C8A696 /* FluxSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE67D342BAF0F9400C8A696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BAE67D3B2BAF0F9400C8A696 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BAE67D4C2BAF0F9500C8A696 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BAE67D3B2BAF0F9400C8A696;
+					};
+					BAE67D562BAF0F9500C8A696 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BAE67D3B2BAF0F9400C8A696;
+					};
+				};
+			};
+			buildConfigurationList = BAE67D372BAF0F9400C8A696 /* Build configuration list for PBXProject "FluxSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE67D332BAF0F9400C8A696;
+			productRefGroup = BAE67D3D2BAF0F9400C8A696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE67D3B2BAF0F9400C8A696 /* FluxSwift */,
+				BAE67D4C2BAF0F9500C8A696 /* FluxSwiftTests */,
+				BAE67D562BAF0F9500C8A696 /* FluxSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE67D3A2BAF0F9400C8A696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE67D482BAF0F9500C8A696 /* Preview Assets.xcassets in Resources */,
+				BAE67D442BAF0F9500C8A696 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE67D4B2BAF0F9500C8A696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE67D552BAF0F9500C8A696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE67D382BAF0F9400C8A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */,
+				BA02B4692BB0D00400517BCB /* ReduxState.swift in Sources */,
+				BA02B46F2BB0D38A00517BCB /* ArchitectureSelectionView.swift in Sources */,
+				BAE67DBF2BB0947F00C8A696 /* Player.swift in Sources */,
+				BA02B4632BB0D00400517BCB /* ReduxStore.swift in Sources */,
+				BA02B4642BB0D00400517BCB /* ReduxReducer.swift in Sources */,
+				BA02B46A2BB0D00400517BCB /* ReduxAction.swift in Sources */,
+				BA02B4682BB0D00400517BCB /* ReduxView.swift in Sources */,
+				BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */,
+				BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */,
+				BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE67D492BAF0F9500C8A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE67D522BAF0F9500C8A696 /* FluxSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE67D532BAF0F9500C8A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE67D5C2BAF0F9500C8A696 /* FluxSwiftUITests.swift in Sources */,
+				BAE67D5E2BAF0F9500C8A696 /* FluxSwiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE67D4F2BAF0F9500C8A696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE67D3B2BAF0F9400C8A696 /* FluxSwift */;
+			targetProxy = BAE67D4E2BAF0F9500C8A696 /* PBXContainerItemProxy */;
+		};
+		BAE67D592BAF0F9500C8A696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE67D3B2BAF0F9400C8A696 /* FluxSwift */;
+			targetProxy = BAE67D582BAF0F9500C8A696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAE67D5F2BAF0F9500C8A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE67D602BAF0F9500C8A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BAE67D622BAF0F9500C8A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FluxSwift/FluxSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluxSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.FluxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE67D632BAF0F9500C8A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FluxSwift/FluxSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluxSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.FluxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE67D652BAF0F9500C8A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.FluxSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluxSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluxSwift";
+			};
+			name = Debug;
+		};
+		BAE67D662BAF0F9500C8A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.FluxSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluxSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluxSwift";
+			};
+			name = Release;
+		};
+		BAE67D682BAF0F9500C8A696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.FluxSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluxSwift;
+			};
+			name = Debug;
+		};
+		BAE67D692BAF0F9500C8A696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.FluxSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluxSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE67D372BAF0F9400C8A696 /* Build configuration list for PBXProject "FluxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE67D5F2BAF0F9500C8A696 /* Debug */,
+				BAE67D602BAF0F9500C8A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE67D612BAF0F9500C8A696 /* Build configuration list for PBXNativeTarget "FluxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE67D622BAF0F9500C8A696 /* Debug */,
+				BAE67D632BAF0F9500C8A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE67D642BAF0F9500C8A696 /* Build configuration list for PBXNativeTarget "FluxSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE67D652BAF0F9500C8A696 /* Debug */,
+				BAE67D662BAF0F9500C8A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE67D672BAF0F9500C8A696 /* Build configuration list for PBXNativeTarget "FluxSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE67D682BAF0F9500C8A696 /* Debug */,
+				BAE67D692BAF0F9500C8A696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE67D342BAF0F9400C8A696 /* Project object */;
+}
