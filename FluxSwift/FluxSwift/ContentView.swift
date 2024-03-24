@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-struct ArchitectureSelectionView: View {
+struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                NavigationLink(destination: FluxView().environmentObject(FluxDispatcher())) {
+                    Text("Flux Architecture")
+                }
+                
                 NavigationLink(destination: ReduxView().environmentObject(ReduxStore(playerState: ReduxState()))) {
-                    Text("Player One Architecture")
+                    Text("Redux Architecture")
                 }
             }
             .navigationTitle("Select Architecture")

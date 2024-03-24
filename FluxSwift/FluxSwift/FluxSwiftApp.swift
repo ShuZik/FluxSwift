@@ -11,7 +11,7 @@ import SwiftUI
 struct FluxSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ArchitectureSelectionView()
+            ContentView()
         }
     }
 }

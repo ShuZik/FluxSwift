@@ -12,10 +12,18 @@
 		BA02B4682BB0D00400517BCB /* ReduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4602BB0D00400517BCB /* ReduxView.swift */; };
 		BA02B4692BB0D00400517BCB /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4612BB0D00400517BCB /* ReduxState.swift */; };
 		BA02B46A2BB0D00400517BCB /* ReduxAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4622BB0D00400517BCB /* ReduxAction.swift */; };
-		BA02B46F2BB0D38A00517BCB /* ArchitectureSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B46E2BB0D38A00517BCB /* ArchitectureSelectionView.swift */; };
+		BA02B46F2BB0D38A00517BCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B46E2BB0D38A00517BCB /* ContentView.swift */; };
 		BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */; };
 		BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4722BB0D45400517BCB /* Store_Redux.swift */; };
 		BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4762BB0D4FB00517BCB /* Reducer.swift */; };
+		BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698322BB0D89200607D45 /* Dispatcher.swift */; };
+		BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698342BB0D89200607D45 /* FluxView.swift */; };
+		BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698352BB0D89200607D45 /* FluxStore.swift */; };
+		BAB6983E2BB0D89200607D45 /* FluxAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698362BB0D89200607D45 /* FluxAction.swift */; };
+		BAB6983F2BB0D89200607D45 /* FluxDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698372BB0D89200607D45 /* FluxDispatcher.swift */; };
+		BAB698402BB0D89200607D45 /* FluxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698382BB0D89200607D45 /* FluxState.swift */; };
+		BAB698412BB0D89200607D45 /* Action_Flux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698392BB0D89200607D45 /* Action_Flux.swift */; };
+		BAB698422BB0D89200607D45 /* Store_Flux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6983A2BB0D89200607D45 /* Store_Flux.swift */; };
 		BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */; };
 		BAE67D442BAF0F9500C8A696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE67D432BAF0F9500C8A696 /* Assets.xcassets */; };
 		BAE67D482BAF0F9500C8A696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE67D472BAF0F9500C8A696 /* Preview Assets.xcassets */; };
@@ -48,10 +56,18 @@
 		BA02B4602BB0D00400517BCB /* ReduxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxView.swift; sourceTree = "<group>"; };
 		BA02B4612BB0D00400517BCB /* ReduxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
 		BA02B4622BB0D00400517BCB /* ReduxAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxAction.swift; sourceTree = "<group>"; };
-		BA02B46E2BB0D38A00517BCB /* ArchitectureSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureSelectionView.swift; sourceTree = "<group>"; };
+		BA02B46E2BB0D38A00517BCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action_Redux.swift; sourceTree = "<group>"; };
 		BA02B4722BB0D45400517BCB /* Store_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store_Redux.swift; sourceTree = "<group>"; };
 		BA02B4762BB0D4FB00517BCB /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		BAB698322BB0D89200607D45 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		BAB698342BB0D89200607D45 /* FluxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxView.swift; sourceTree = "<group>"; };
+		BAB698352BB0D89200607D45 /* FluxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxStore.swift; sourceTree = "<group>"; };
+		BAB698362BB0D89200607D45 /* FluxAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxAction.swift; sourceTree = "<group>"; };
+		BAB698372BB0D89200607D45 /* FluxDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxDispatcher.swift; sourceTree = "<group>"; };
+		BAB698382BB0D89200607D45 /* FluxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxState.swift; sourceTree = "<group>"; };
+		BAB698392BB0D89200607D45 /* Action_Flux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action_Flux.swift; sourceTree = "<group>"; };
+		BAB6983A2BB0D89200607D45 /* Store_Flux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store_Flux.swift; sourceTree = "<group>"; };
 		BAE67D3C2BAF0F9400C8A696 /* FluxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSwiftApp.swift; sourceTree = "<group>"; };
 		BAE67D432BAF0F9500C8A696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +130,37 @@
 			path = Redux/Redux;
 			sourceTree = "<group>";
 		};
+		BAB698312BB0D89200607D45 /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				BAB698332BB0D89200607D45 /* Example */,
+				BAB698392BB0D89200607D45 /* Action_Flux.swift */,
+				BAB6983A2BB0D89200607D45 /* Store_Flux.swift */,
+				BAB698322BB0D89200607D45 /* Dispatcher.swift */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
+		BAB698332BB0D89200607D45 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BAB698342BB0D89200607D45 /* FluxView.swift */,
+				BAB698352BB0D89200607D45 /* FluxStore.swift */,
+				BAB698362BB0D89200607D45 /* FluxAction.swift */,
+				BAB698372BB0D89200607D45 /* FluxDispatcher.swift */,
+				BAB698382BB0D89200607D45 /* FluxState.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		BAB698432BB0D9A300607D45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAE67DBE2BB0947F00C8A696 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BAE67D332BAF0F9400C8A696 = {
 			isa = PBXGroup;
 			children = (
@@ -138,9 +185,10 @@
 			isa = PBXGroup;
 			children = (
 				BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */,
-				BA02B46E2BB0D38A00517BCB /* ArchitectureSelectionView.swift */,
+				BA02B46E2BB0D38A00517BCB /* ContentView.swift */,
+				BAB698312BB0D89200607D45 /* Flux */,
 				BA02B4742BB0D49D00517BCB /* Redux */,
-				BAE67DBE2BB0947F00C8A696 /* Player.swift */,
+				BAB698432BB0D9A300607D45 /* Model */,
 				BAE67D432BAF0F9500C8A696 /* Assets.xcassets */,
 				BAE67D452BAF0F9500C8A696 /* FluxSwift.entitlements */,
 				BAE67D462BAF0F9500C8A696 /* Preview Content */,
@@ -303,9 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB6983E2BB0D89200607D45 /* FluxAction.swift in Sources */,
 				BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */,
+				BAB6983F2BB0D89200607D45 /* FluxDispatcher.swift in Sources */,
 				BA02B4692BB0D00400517BCB /* ReduxState.swift in Sources */,
-				BA02B46F2BB0D38A00517BCB /* ArchitectureSelectionView.swift in Sources */,
+				BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */,
+				BAB698402BB0D89200607D45 /* FluxState.swift in Sources */,
+				BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */,
+				BA02B46F2BB0D38A00517BCB /* ContentView.swift in Sources */,
 				BAE67DBF2BB0947F00C8A696 /* Player.swift in Sources */,
 				BA02B4632BB0D00400517BCB /* ReduxStore.swift in Sources */,
 				BA02B4642BB0D00400517BCB /* ReduxReducer.swift in Sources */,
@@ -313,7 +366,10 @@
 				BA02B4682BB0D00400517BCB /* ReduxView.swift in Sources */,
 				BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */,
 				BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */,
+				BAB698422BB0D89200607D45 /* Store_Flux.swift in Sources */,
 				BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */,
+				BAB698412BB0D89200607D45 /* Action_Flux.swift in Sources */,
+				BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
