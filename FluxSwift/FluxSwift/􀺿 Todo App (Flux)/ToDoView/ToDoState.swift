@@ -6,7 +6,7 @@
 //
 
 struct ToDoState {
-    var items: [ToDoItems] = .init()
+//    var items: [ToDoItems] = .init()
 }
 
 

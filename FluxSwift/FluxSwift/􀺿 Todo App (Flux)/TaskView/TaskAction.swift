@@ -7,7 +7,7 @@
 
 enum TaskAction {
     case add(title: String)
-    case toggleCompletion(id: UUID)
-    case delete(id: UUID)
-    case close
+    case toggleCompletion
+    case delete
+//    case close
 }

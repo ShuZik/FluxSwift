@@ -18,21 +18,13 @@ final class TaskDispatcher: ObservableObject {
     func dispatch(action: TaskAction) {
         switch action {
         case .add(let title):
-//            let newItem = ToDoItem(context: context)
-//            newItem.id = UUID()
-//            newItem.title = title
-//            newItem.isCompleted = false
-//            saveContext()
-            store.add(newPlayer: <#T##Player#>)
-        case .toggleCompletion(let id):
-//            if let item = fetchToDoItem(by: id) {
-//                item.isCompleted.toggle()
-//                saveContext()
-//            }
-        case .delete(let id):
-            store.delete()
-        case close:
-            print("Close")
+            print("1")
+        case .toggleCompletion:
+            print("2")
+        case .delete:
+            print("3")
+//        case close:
+//            print("Close")
         }
         
         objectWillChange.send(store)

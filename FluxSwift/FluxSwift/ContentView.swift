@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: ToDoView().environmentObject(ToDoDispatcher())) {
+                NavigationLink(destination: ToDoView()
+                    .environmentObject(ToDoDispatcher())
+                    .modelContainer(for: ToDoItem.self))
+                {
                     Text("Launch ToDo App")
                 }
                 

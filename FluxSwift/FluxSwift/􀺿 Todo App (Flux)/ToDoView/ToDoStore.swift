@@ -13,7 +13,7 @@ final class ToDoStore: ObservableObject {
     @Published var playerState: ToDoState = .init()
     
     func add(newPlayer: Player) {
-        playerState.players.append(newPlayer)
+//        playerState.players.append(newPlayer)
     }
     
     func update(name: String) {

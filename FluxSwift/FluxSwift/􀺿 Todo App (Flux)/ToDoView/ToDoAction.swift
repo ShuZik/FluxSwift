@@ -5,6 +5,8 @@
 //  Created by ShuZik on 24.03.2024.
 //
 
+import Foundation
+
 enum ToDoAction {
     case openTaskView
     
