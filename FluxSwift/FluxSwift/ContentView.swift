@@ -11,6 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                NavigationLink(destination: ToDoView().environmentObject(FluxDispatcher())) {
+                    Text("Launch ToDo App")
+                }
+                
                 NavigationLink(destination: FluxView().environmentObject(FluxDispatcher())) {
                     Text("Flux Architecture")
                 }

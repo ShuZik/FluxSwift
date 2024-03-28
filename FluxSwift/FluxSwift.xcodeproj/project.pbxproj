@@ -16,6 +16,33 @@
 		BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */; };
 		BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4722BB0D45400517BCB /* Store_Redux.swift */; };
 		BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4762BB0D4FB00517BCB /* Reducer.swift */; };
+		BA20D1992BB58CA000E9E4AC /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1982BB58CA000E9E4AC /* ToDoView.swift */; };
+		BA20D1A32BB58E8200E9E4AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1A22BB58E8200E9E4AC /* README.md */; };
+		BA20D1A82BB58F2D00E9E4AC /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1A72BB58F2D00E9E4AC /* CircularButton.swift */; };
+		BA20D1BF2BB5926C00E9E4AC /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1AA2BB5926C00E9E4AC /* IconImage.swift */; };
+		BA20D1C22BB5926C00E9E4AC /* PrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1AE2BB5926C00E9E4AC /* PrimaryLabel.swift */; };
+		BA20D1C62BB5926C00E9E4AC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1B32BB5926C00E9E4AC /* PrimaryButton.swift */; };
+		BA20D1C72BB5926C00E9E4AC /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1B42BB5926C00E9E4AC /* SecondaryButton.swift */; };
+		BA20D1CA2BB5926C00E9E4AC /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1BA2BB5926C00E9E4AC /* Fonts.swift */; };
+		BA20D1CB2BB5926C00E9E4AC /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1BB2BB5926C00E9E4AC /* Primitives.swift */; };
+		BA20D1CC2BB5926C00E9E4AC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1BC2BB5926C00E9E4AC /* Theme.swift */; };
+		BA20D1CD2BB5926C00E9E4AC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1BD2BB5926C00E9E4AC /* Colors.swift */; };
+		BA20D1CE2BB5926C00E9E4AC /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1BE2BB5926C00E9E4AC /* Shapes.swift */; };
+		BA20D1D32BB592A600E9E4AC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1D02BB592A600E9E4AC /* View.swift */; };
+		BA20D1E42BB596E500E9E4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1D82BB596E500E9E4AC /* Assets.xcassets */; };
+		BA20D1E52BB596E500E9E4AC /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1DA2BB596E500E9E4AC /* SF-Pro-Text-Heavy.otf */; };
+		BA20D1E62BB596E500E9E4AC /* CanelaText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1DB2BB596E500E9E4AC /* CanelaText-Regular.otf */; };
+		BA20D1E72BB596E500E9E4AC /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1DC2BB596E500E9E4AC /* SF-Pro-Text-Light.otf */; };
+		BA20D1E82BB596E500E9E4AC /* Canela-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1DD2BB596E500E9E4AC /* Canela-Regular.otf */; };
+		BA20D1E92BB596E500E9E4AC /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1DE2BB596E500E9E4AC /* SF-Pro-Text-Regular.otf */; };
+		BA20D1EA2BB596E500E9E4AC /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1DF2BB596E500E9E4AC /* SF-Pro-Text-Bold.otf */; };
+		BA20D1EB2BB596E500E9E4AC /* Canela-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1E02BB596E500E9E4AC /* Canela-RegularItalic.otf */; };
+		BA20D1EC2BB596E500E9E4AC /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1E12BB596E500E9E4AC /* SF-Pro-Text-Semibold.otf */; };
+		BA20D1ED2BB596E500E9E4AC /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1E22BB596E500E9E4AC /* SF-Pro-Text-Medium.otf */; };
+		BA20D1F82BB5975900E9E4AC /* CrashlyticsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1F22BB5975900E9E4AC /* CrashlyticsAdapter.swift */; };
+		BA20D1F92BB5975900E9E4AC /* UserDefaultsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1F32BB5975900E9E4AC /* UserDefaultsAdapter.swift */; };
+		BA20D1FD2BB5995A00E9E4AC /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1FC2BB5995A00E9E4AC /* Keys.swift */; };
+		BA20D1FF2BB5998100E9E4AC /* PerformanceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1FE2BB5998100E9E4AC /* PerformanceAdapter.swift */; };
 		BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698322BB0D89200607D45 /* Dispatcher.swift */; };
 		BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698342BB0D89200607D45 /* FluxView.swift */; };
 		BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698352BB0D89200607D45 /* FluxStore.swift */; };
@@ -25,7 +52,6 @@
 		BAB698412BB0D89200607D45 /* Action_Flux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698392BB0D89200607D45 /* Action_Flux.swift */; };
 		BAB698422BB0D89200607D45 /* Store_Flux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6983A2BB0D89200607D45 /* Store_Flux.swift */; };
 		BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */; };
-		BAE67D442BAF0F9500C8A696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE67D432BAF0F9500C8A696 /* Assets.xcassets */; };
 		BAE67D482BAF0F9500C8A696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE67D472BAF0F9500C8A696 /* Preview Assets.xcassets */; };
 		BAE67D522BAF0F9500C8A696 /* FluxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D512BAF0F9500C8A696 /* FluxSwiftTests.swift */; };
 		BAE67D5C2BAF0F9500C8A696 /* FluxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE67D5B2BAF0F9500C8A696 /* FluxSwiftUITests.swift */; };
@@ -60,6 +86,33 @@
 		BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action_Redux.swift; sourceTree = "<group>"; };
 		BA02B4722BB0D45400517BCB /* Store_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store_Redux.swift; sourceTree = "<group>"; };
 		BA02B4762BB0D4FB00517BCB /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		BA20D1982BB58CA000E9E4AC /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		BA20D1A22BB58E8200E9E4AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA20D1A72BB58F2D00E9E4AC /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		BA20D1AA2BB5926C00E9E4AC /* IconImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
+		BA20D1AE2BB5926C00E9E4AC /* PrimaryLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryLabel.swift; sourceTree = "<group>"; };
+		BA20D1B32BB5926C00E9E4AC /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		BA20D1B42BB5926C00E9E4AC /* SecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		BA20D1BA2BB5926C00E9E4AC /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BA20D1BB2BB5926C00E9E4AC /* Primitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Primitives.swift; sourceTree = "<group>"; };
+		BA20D1BC2BB5926C00E9E4AC /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BA20D1BD2BB5926C00E9E4AC /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BA20D1BE2BB5926C00E9E4AC /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		BA20D1D02BB592A600E9E4AC /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		BA20D1D82BB596E500E9E4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA20D1DA2BB596E500E9E4AC /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		BA20D1DB2BB596E500E9E4AC /* CanelaText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CanelaText-Regular.otf"; sourceTree = "<group>"; };
+		BA20D1DC2BB596E500E9E4AC /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		BA20D1DD2BB596E500E9E4AC /* Canela-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canela-Regular.otf"; sourceTree = "<group>"; };
+		BA20D1DE2BB596E500E9E4AC /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		BA20D1DF2BB596E500E9E4AC /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		BA20D1E02BB596E500E9E4AC /* Canela-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canela-RegularItalic.otf"; sourceTree = "<group>"; };
+		BA20D1E12BB596E500E9E4AC /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		BA20D1E22BB596E500E9E4AC /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		BA20D1F22BB5975900E9E4AC /* CrashlyticsAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashlyticsAdapter.swift; sourceTree = "<group>"; };
+		BA20D1F32BB5975900E9E4AC /* UserDefaultsAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsAdapter.swift; sourceTree = "<group>"; };
+		BA20D1FC2BB5995A00E9E4AC /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		BA20D1FE2BB5998100E9E4AC /* PerformanceAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceAdapter.swift; sourceTree = "<group>"; };
 		BAB698322BB0D89200607D45 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		BAB698342BB0D89200607D45 /* FluxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxView.swift; sourceTree = "<group>"; };
 		BAB698352BB0D89200607D45 /* FluxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxStore.swift; sourceTree = "<group>"; };
@@ -70,7 +123,6 @@
 		BAB6983A2BB0D89200607D45 /* Store_Flux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store_Flux.swift; sourceTree = "<group>"; };
 		BAE67D3C2BAF0F9400C8A696 /* FluxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSwiftApp.swift; sourceTree = "<group>"; };
-		BAE67D432BAF0F9500C8A696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE67D452BAF0F9500C8A696 /* FluxSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FluxSwift.entitlements; sourceTree = "<group>"; };
 		BAE67D472BAF0F9500C8A696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAE67D4D2BAF0F9500C8A696 /* FluxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +158,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA02B45A2BB0D00400517BCB /* Example */ = {
+		BA02B45A2BB0D00400517BCB /* 􀙣 Example */ = {
 			isa = PBXGroup;
 			children = (
 				BA02B4602BB0D00400517BCB /* ReduxView.swift */,
@@ -115,33 +167,175 @@
 				BA02B45C2BB0D00400517BCB /* ReduxReducer.swift */,
 				BA02B4612BB0D00400517BCB /* ReduxState.swift */,
 			);
-			path = Example;
+			path = "􀙣 Example";
 			sourceTree = "<group>";
 		};
-		BA02B4742BB0D49D00517BCB /* Redux */ = {
+		BA02B4742BB0D49D00517BCB /* 􀬚 Redux */ = {
 			isa = PBXGroup;
 			children = (
-				BA02B45A2BB0D00400517BCB /* Example */,
+				BA02B45A2BB0D00400517BCB /* 􀙣 Example */,
 				BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */,
 				BA02B4722BB0D45400517BCB /* Store_Redux.swift */,
 				BA02B4762BB0D4FB00517BCB /* Reducer.swift */,
 			);
-			name = Redux;
-			path = Redux/Redux;
+			path = "􀬚 Redux";
 			sourceTree = "<group>";
 		};
-		BAB698312BB0D89200607D45 /* Flux */ = {
+		BA20D19C2BB58D1A00E9E4AC /* 􀝦 Design System  */ = {
 			isa = PBXGroup;
 			children = (
-				BAB698332BB0D89200607D45 /* Example */,
+				BA20D1B92BB5926C00E9E4AC /* Primitives */,
+				BA20D1B22BB5926C00E9E4AC /* Buttons */,
+				BA20D1A92BB5926C00E9E4AC /* Image */,
+				BA20D1AD2BB5926C00E9E4AC /* Labels */,
+			);
+			path = "􀝦 Design System ";
+			sourceTree = "<group>";
+		};
+		BA20D19D2BB58DA000E9E4AC /* 􁠸 Examples  */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1A42BB58EA000E9E4AC /* MVC Soon... */,
+				BA20D1A52BB58EAC00E9E4AC /* MVP Soon... */,
+				BA20D1A62BB58EB400E9E4AC /* MVVM Soon... */,
+				BAB698312BB0D89200607D45 /* 􀯠 Flux */,
+				BA02B4742BB0D49D00517BCB /* 􀬚 Redux */,
+				BA20D1A12BB58E4C00E9E4AC /* VIPER Soon... */,
+			);
+			path = "􁠸 Examples ";
+			sourceTree = "<group>";
+		};
+		BA20D19E2BB58DF000E9E4AC /* 􀺿 Todo App (Flux) */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1982BB58CA000E9E4AC /* ToDoView.swift */,
+			);
+			path = "􀺿 Todo App (Flux)";
+			sourceTree = "<group>";
+		};
+		BA20D1A12BB58E4C00E9E4AC /* VIPER Soon... */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1A22BB58E8200E9E4AC /* README.md */,
+			);
+			path = "VIPER Soon...";
+			sourceTree = "<group>";
+		};
+		BA20D1A42BB58EA000E9E4AC /* MVC Soon... */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MVC Soon...";
+			sourceTree = "<group>";
+		};
+		BA20D1A52BB58EAC00E9E4AC /* MVP Soon... */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MVP Soon...";
+			sourceTree = "<group>";
+		};
+		BA20D1A62BB58EB400E9E4AC /* MVVM Soon... */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MVVM Soon...";
+			sourceTree = "<group>";
+		};
+		BA20D1A92BB5926C00E9E4AC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1AA2BB5926C00E9E4AC /* IconImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		BA20D1AD2BB5926C00E9E4AC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1AE2BB5926C00E9E4AC /* PrimaryLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		BA20D1B22BB5926C00E9E4AC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1B32BB5926C00E9E4AC /* PrimaryButton.swift */,
+				BA20D1B42BB5926C00E9E4AC /* SecondaryButton.swift */,
+				BA20D1A72BB58F2D00E9E4AC /* CircularButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		BA20D1B92BB5926C00E9E4AC /* Primitives */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1BA2BB5926C00E9E4AC /* Fonts.swift */,
+				BA20D1BB2BB5926C00E9E4AC /* Primitives.swift */,
+				BA20D1BC2BB5926C00E9E4AC /* Theme.swift */,
+				BA20D1BD2BB5926C00E9E4AC /* Colors.swift */,
+				BA20D1BE2BB5926C00E9E4AC /* Shapes.swift */,
+			);
+			path = Primitives;
+			sourceTree = "<group>";
+		};
+		BA20D1CF2BB592A600E9E4AC /* 􀥮 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1D02BB592A600E9E4AC /* View.swift */,
+			);
+			path = "􀥮 Extension";
+			sourceTree = "<group>";
+		};
+		BA20D1D62BB596C700E9E4AC /* 􀈚 Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1D82BB596E500E9E4AC /* Assets.xcassets */,
+				BA20D1FC2BB5995A00E9E4AC /* Keys.swift */,
+				BA20D1D92BB596E500E9E4AC /* Fonts */,
+			);
+			path = "􀈚 Resources";
+			sourceTree = "<group>";
+		};
+		BA20D1D92BB596E500E9E4AC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1DA2BB596E500E9E4AC /* SF-Pro-Text-Heavy.otf */,
+				BA20D1DB2BB596E500E9E4AC /* CanelaText-Regular.otf */,
+				BA20D1DC2BB596E500E9E4AC /* SF-Pro-Text-Light.otf */,
+				BA20D1DD2BB596E500E9E4AC /* Canela-Regular.otf */,
+				BA20D1DE2BB596E500E9E4AC /* SF-Pro-Text-Regular.otf */,
+				BA20D1DF2BB596E500E9E4AC /* SF-Pro-Text-Bold.otf */,
+				BA20D1E02BB596E500E9E4AC /* Canela-RegularItalic.otf */,
+				BA20D1E12BB596E500E9E4AC /* SF-Pro-Text-Semibold.otf */,
+				BA20D1E22BB596E500E9E4AC /* SF-Pro-Text-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BA20D1EE2BB5975900E9E4AC /* 􀐖 Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				BA20D1F22BB5975900E9E4AC /* CrashlyticsAdapter.swift */,
+				BA20D1FE2BB5998100E9E4AC /* PerformanceAdapter.swift */,
+				BA20D1F32BB5975900E9E4AC /* UserDefaultsAdapter.swift */,
+			);
+			path = "􀐖 Adapter";
+			sourceTree = "<group>";
+		};
+		BAB698312BB0D89200607D45 /* 􀯠 Flux */ = {
+			isa = PBXGroup;
+			children = (
+				BAB698332BB0D89200607D45 /* 􀙣 Example */,
 				BAB698392BB0D89200607D45 /* Action_Flux.swift */,
 				BAB6983A2BB0D89200607D45 /* Store_Flux.swift */,
 				BAB698322BB0D89200607D45 /* Dispatcher.swift */,
 			);
-			path = Flux;
+			path = "􀯠 Flux";
 			sourceTree = "<group>";
 		};
-		BAB698332BB0D89200607D45 /* Example */ = {
+		BAB698332BB0D89200607D45 /* 􀙣 Example */ = {
 			isa = PBXGroup;
 			children = (
 				BAB698342BB0D89200607D45 /* FluxView.swift */,
@@ -150,15 +344,15 @@
 				BAB698372BB0D89200607D45 /* FluxDispatcher.swift */,
 				BAB698382BB0D89200607D45 /* FluxState.swift */,
 			);
-			path = Example;
+			path = "􀙣 Example";
 			sourceTree = "<group>";
 		};
-		BAB698432BB0D9A300607D45 /* Model */ = {
+		BAB698432BB0D9A300607D45 /* 􀏤 Model */ = {
 			isa = PBXGroup;
 			children = (
 				BAE67DBE2BB0947F00C8A696 /* Player.swift */,
 			);
-			path = Model;
+			path = "􀏤 Model";
 			sourceTree = "<group>";
 		};
 		BAE67D332BAF0F9400C8A696 = {
@@ -186,10 +380,13 @@
 			children = (
 				BAE67D3F2BAF0F9400C8A696 /* FluxSwiftApp.swift */,
 				BA02B46E2BB0D38A00517BCB /* ContentView.swift */,
-				BAB698312BB0D89200607D45 /* Flux */,
-				BA02B4742BB0D49D00517BCB /* Redux */,
-				BAB698432BB0D9A300607D45 /* Model */,
-				BAE67D432BAF0F9500C8A696 /* Assets.xcassets */,
+				BA20D19E2BB58DF000E9E4AC /* 􀺿 Todo App (Flux) */,
+				BA20D19C2BB58D1A00E9E4AC /* 􀝦 Design System  */,
+				BA20D1EE2BB5975900E9E4AC /* 􀐖 Adapter */,
+				BAB698432BB0D9A300607D45 /* 􀏤 Model */,
+				BA20D1CF2BB592A600E9E4AC /* 􀥮 Extension */,
+				BA20D1D62BB596C700E9E4AC /* 􀈚 Resources */,
+				BA20D19D2BB58DA000E9E4AC /* 􁠸 Examples  */,
 				BAE67D452BAF0F9500C8A696 /* FluxSwift.entitlements */,
 				BAE67D462BAF0F9500C8A696 /* Preview Content */,
 			);
@@ -309,6 +506,8 @@
 				Base,
 			);
 			mainGroup = BAE67D332BAF0F9400C8A696;
+			packageReferences = (
+			);
 			productRefGroup = BAE67D3D2BAF0F9400C8A696 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -325,8 +524,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA20D1ED2BB596E500E9E4AC /* SF-Pro-Text-Medium.otf in Resources */,
+				BA20D1EC2BB596E500E9E4AC /* SF-Pro-Text-Semibold.otf in Resources */,
+				BA20D1A32BB58E8200E9E4AC /* README.md in Resources */,
 				BAE67D482BAF0F9500C8A696 /* Preview Assets.xcassets in Resources */,
-				BAE67D442BAF0F9500C8A696 /* Assets.xcassets in Resources */,
+				BA20D1E52BB596E500E9E4AC /* SF-Pro-Text-Heavy.otf in Resources */,
+				BA20D1E42BB596E500E9E4AC /* Assets.xcassets in Resources */,
+				BA20D1E82BB596E500E9E4AC /* Canela-Regular.otf in Resources */,
+				BA20D1EA2BB596E500E9E4AC /* SF-Pro-Text-Bold.otf in Resources */,
+				BA20D1E92BB596E500E9E4AC /* SF-Pro-Text-Regular.otf in Resources */,
+				BA20D1E72BB596E500E9E4AC /* SF-Pro-Text-Light.otf in Resources */,
+				BA20D1E62BB596E500E9E4AC /* CanelaText-Regular.otf in Resources */,
+				BA20D1EB2BB596E500E9E4AC /* Canela-RegularItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,21 +560,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA20D1C72BB5926C00E9E4AC /* SecondaryButton.swift in Sources */,
+				BA20D1FD2BB5995A00E9E4AC /* Keys.swift in Sources */,
+				BA20D1CD2BB5926C00E9E4AC /* Colors.swift in Sources */,
+				BA20D1C22BB5926C00E9E4AC /* PrimaryLabel.swift in Sources */,
+				BA20D1CB2BB5926C00E9E4AC /* Primitives.swift in Sources */,
 				BAB6983E2BB0D89200607D45 /* FluxAction.swift in Sources */,
 				BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */,
 				BAB6983F2BB0D89200607D45 /* FluxDispatcher.swift in Sources */,
 				BA02B4692BB0D00400517BCB /* ReduxState.swift in Sources */,
+				BA20D1F82BB5975900E9E4AC /* CrashlyticsAdapter.swift in Sources */,
 				BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */,
 				BAB698402BB0D89200607D45 /* FluxState.swift in Sources */,
+				BA20D1BF2BB5926C00E9E4AC /* IconImage.swift in Sources */,
 				BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */,
 				BA02B46F2BB0D38A00517BCB /* ContentView.swift in Sources */,
 				BAE67DBF2BB0947F00C8A696 /* Player.swift in Sources */,
 				BA02B4632BB0D00400517BCB /* ReduxStore.swift in Sources */,
+				BA20D1CA2BB5926C00E9E4AC /* Fonts.swift in Sources */,
 				BA02B4642BB0D00400517BCB /* ReduxReducer.swift in Sources */,
+				BA20D1CE2BB5926C00E9E4AC /* Shapes.swift in Sources */,
+				BA20D1D32BB592A600E9E4AC /* View.swift in Sources */,
 				BA02B46A2BB0D00400517BCB /* ReduxAction.swift in Sources */,
 				BA02B4682BB0D00400517BCB /* ReduxView.swift in Sources */,
 				BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */,
+				BA20D1992BB58CA000E9E4AC /* ToDoView.swift in Sources */,
+				BA20D1FF2BB5998100E9E4AC /* PerformanceAdapter.swift in Sources */,
+				BA20D1A82BB58F2D00E9E4AC /* CircularButton.swift in Sources */,
+				BA20D1CC2BB5926C00E9E4AC /* Theme.swift in Sources */,
+				BA20D1F92BB5975900E9E4AC /* UserDefaultsAdapter.swift in Sources */,
 				BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */,
+				BA20D1C62BB5926C00E9E4AC /* PrimaryButton.swift in Sources */,
 				BAB698422BB0D89200607D45 /* Store_Flux.swift in Sources */,
 				BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */,
 				BAB698412BB0D89200607D45 /* Action_Flux.swift in Sources */,
