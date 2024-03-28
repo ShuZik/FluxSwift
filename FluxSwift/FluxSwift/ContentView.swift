@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: ToDoView().environmentObject(FluxDispatcher())) {
+                NavigationLink(destination: ToDoView().environmentObject(ToDoDispatcher())) {
                     Text("Launch ToDo App")
                 }
                 

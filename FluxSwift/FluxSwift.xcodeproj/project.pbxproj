@@ -16,7 +16,6 @@
 		BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */; };
 		BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4722BB0D45400517BCB /* Store_Redux.swift */; };
 		BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02B4762BB0D4FB00517BCB /* Reducer.swift */; };
-		BA20D1992BB58CA000E9E4AC /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1982BB58CA000E9E4AC /* ToDoView.swift */; };
 		BA20D1A32BB58E8200E9E4AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA20D1A22BB58E8200E9E4AC /* README.md */; };
 		BA20D1A82BB58F2D00E9E4AC /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1A72BB58F2D00E9E4AC /* CircularButton.swift */; };
 		BA20D1BF2BB5926C00E9E4AC /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1AA2BB5926C00E9E4AC /* IconImage.swift */; };
@@ -43,6 +42,11 @@
 		BA20D1F92BB5975900E9E4AC /* UserDefaultsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1F32BB5975900E9E4AC /* UserDefaultsAdapter.swift */; };
 		BA20D1FD2BB5995A00E9E4AC /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1FC2BB5995A00E9E4AC /* Keys.swift */; };
 		BA20D1FF2BB5998100E9E4AC /* PerformanceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D1FE2BB5998100E9E4AC /* PerformanceAdapter.swift */; };
+		BA20D2052BB59AFA00E9E4AC /* ToDoDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2002BB59AFA00E9E4AC /* ToDoDispatcher.swift */; };
+		BA20D2062BB59AFA00E9E4AC /* ToDoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2012BB59AFA00E9E4AC /* ToDoStore.swift */; };
+		BA20D2072BB59AFA00E9E4AC /* ToDoState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2022BB59AFA00E9E4AC /* ToDoState.swift */; };
+		BA20D2082BB59AFA00E9E4AC /* ToDoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2032BB59AFA00E9E4AC /* ToDoAction.swift */; };
+		BA20D2092BB59AFA00E9E4AC /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2042BB59AFA00E9E4AC /* ToDoView.swift */; };
 		BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698322BB0D89200607D45 /* Dispatcher.swift */; };
 		BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698342BB0D89200607D45 /* FluxView.swift */; };
 		BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698352BB0D89200607D45 /* FluxStore.swift */; };
@@ -86,7 +90,6 @@
 		BA02B4702BB0D3EB00517BCB /* Action_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action_Redux.swift; sourceTree = "<group>"; };
 		BA02B4722BB0D45400517BCB /* Store_Redux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store_Redux.swift; sourceTree = "<group>"; };
 		BA02B4762BB0D4FB00517BCB /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
-		BA20D1982BB58CA000E9E4AC /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		BA20D1A22BB58E8200E9E4AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA20D1A72BB58F2D00E9E4AC /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		BA20D1AA2BB5926C00E9E4AC /* IconImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
@@ -113,6 +116,11 @@
 		BA20D1F32BB5975900E9E4AC /* UserDefaultsAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsAdapter.swift; sourceTree = "<group>"; };
 		BA20D1FC2BB5995A00E9E4AC /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		BA20D1FE2BB5998100E9E4AC /* PerformanceAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceAdapter.swift; sourceTree = "<group>"; };
+		BA20D2002BB59AFA00E9E4AC /* ToDoDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoDispatcher.swift; sourceTree = "<group>"; };
+		BA20D2012BB59AFA00E9E4AC /* ToDoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoStore.swift; sourceTree = "<group>"; };
+		BA20D2022BB59AFA00E9E4AC /* ToDoState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoState.swift; sourceTree = "<group>"; };
+		BA20D2032BB59AFA00E9E4AC /* ToDoAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoAction.swift; sourceTree = "<group>"; };
+		BA20D2042BB59AFA00E9E4AC /* ToDoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		BAB698322BB0D89200607D45 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		BAB698342BB0D89200607D45 /* FluxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxView.swift; sourceTree = "<group>"; };
 		BAB698352BB0D89200607D45 /* FluxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxStore.swift; sourceTree = "<group>"; };
@@ -208,7 +216,11 @@
 		BA20D19E2BB58DF000E9E4AC /* 􀺿 Todo App (Flux) */ = {
 			isa = PBXGroup;
 			children = (
-				BA20D1982BB58CA000E9E4AC /* ToDoView.swift */,
+				BA20D2042BB59AFA00E9E4AC /* ToDoView.swift */,
+				BA20D2032BB59AFA00E9E4AC /* ToDoAction.swift */,
+				BA20D2002BB59AFA00E9E4AC /* ToDoDispatcher.swift */,
+				BA20D2022BB59AFA00E9E4AC /* ToDoState.swift */,
+				BA20D2012BB59AFA00E9E4AC /* ToDoStore.swift */,
 			);
 			path = "􀺿 Todo App (Flux)";
 			sourceTree = "<group>";
@@ -565,6 +577,7 @@
 				BA20D1CD2BB5926C00E9E4AC /* Colors.swift in Sources */,
 				BA20D1C22BB5926C00E9E4AC /* PrimaryLabel.swift in Sources */,
 				BA20D1CB2BB5926C00E9E4AC /* Primitives.swift in Sources */,
+				BA20D2072BB59AFA00E9E4AC /* ToDoState.swift in Sources */,
 				BAB6983E2BB0D89200607D45 /* FluxAction.swift in Sources */,
 				BA02B4772BB0D4FB00517BCB /* Reducer.swift in Sources */,
 				BAB6983F2BB0D89200607D45 /* FluxDispatcher.swift in Sources */,
@@ -572,6 +585,7 @@
 				BA20D1F82BB5975900E9E4AC /* CrashlyticsAdapter.swift in Sources */,
 				BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */,
 				BAB698402BB0D89200607D45 /* FluxState.swift in Sources */,
+				BA20D2092BB59AFA00E9E4AC /* ToDoView.swift in Sources */,
 				BA20D1BF2BB5926C00E9E4AC /* IconImage.swift in Sources */,
 				BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */,
 				BA02B46F2BB0D38A00517BCB /* ContentView.swift in Sources */,
@@ -582,9 +596,9 @@
 				BA20D1CE2BB5926C00E9E4AC /* Shapes.swift in Sources */,
 				BA20D1D32BB592A600E9E4AC /* View.swift in Sources */,
 				BA02B46A2BB0D00400517BCB /* ReduxAction.swift in Sources */,
+				BA20D2062BB59AFA00E9E4AC /* ToDoStore.swift in Sources */,
 				BA02B4682BB0D00400517BCB /* ReduxView.swift in Sources */,
 				BA02B4712BB0D3EB00517BCB /* Action_Redux.swift in Sources */,
-				BA20D1992BB58CA000E9E4AC /* ToDoView.swift in Sources */,
 				BA20D1FF2BB5998100E9E4AC /* PerformanceAdapter.swift in Sources */,
 				BA20D1A82BB58F2D00E9E4AC /* CircularButton.swift in Sources */,
 				BA20D1CC2BB5926C00E9E4AC /* Theme.swift in Sources */,
@@ -592,6 +606,8 @@
 				BA02B4732BB0D45400517BCB /* Store_Redux.swift in Sources */,
 				BA20D1C62BB5926C00E9E4AC /* PrimaryButton.swift in Sources */,
 				BAB698422BB0D89200607D45 /* Store_Flux.swift in Sources */,
+				BA20D2052BB59AFA00E9E4AC /* ToDoDispatcher.swift in Sources */,
+				BA20D2082BB59AFA00E9E4AC /* ToDoAction.swift in Sources */,
 				BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */,
 				BAB698412BB0D89200607D45 /* Action_Flux.swift in Sources */,
 				BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */,
