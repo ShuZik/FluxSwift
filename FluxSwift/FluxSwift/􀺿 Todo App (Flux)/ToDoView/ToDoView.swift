@@ -14,15 +14,15 @@ struct ToDoView: View {
         ZStack {
             // Your existing content
             VStack {
-                ScrollView {
-                    ForEach(playerDispatcher.store.playerState.players, id: \.id) { player in
-                        HStack {
-                            Text(player.name)
-                            Spacer()
-                        }
-                        .padding()
-                    }
-                }
+//                ScrollView {
+//                    ForEach(playerDispatcher.store.playerState.players, id: \.id) { player in
+//                        HStack {
+//                            Text(player.name)
+//                            Spacer()
+//                        }
+//                        .padding()
+//                    }
+//                }
                 Spacer()
             }
             .padding()
@@ -39,7 +39,7 @@ struct ToDoView: View {
             HStack {
                 Spacer()
                 CircularButton("plus") {
-                    playerDispatcher.dispatch(action: ToDoAction.addPlayer(name: "New Player", color: 0))
+                    playerDispatcher.dispatch(action: ToDoAction.openTaskView)
                 }
                 .padding()
             }
