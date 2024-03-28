@@ -11,7 +11,8 @@ import SwiftUI
 struct FluxSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskView()
+                .modelContainer(for: ToDoItem.self)
         }
     }
 }

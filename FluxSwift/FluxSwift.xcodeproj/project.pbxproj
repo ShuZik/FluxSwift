@@ -46,13 +46,14 @@
 		BA20D2062BB59AFA00E9E4AC /* ToDoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2012BB59AFA00E9E4AC /* ToDoStore.swift */; };
 		BA20D2072BB59AFA00E9E4AC /* ToDoState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2022BB59AFA00E9E4AC /* ToDoState.swift */; };
 		BA20D2082BB59AFA00E9E4AC /* ToDoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2032BB59AFA00E9E4AC /* ToDoAction.swift */; };
-		BA20D2092BB59AFA00E9E4AC /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2042BB59AFA00E9E4AC /* ToDoView.swift */; };
+		BA20D2092BB59AFA00E9E4AC /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2042BB59AFA00E9E4AC /* TaskView.swift */; };
 		BA20D20B2BB59E1C00E9E4AC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D20A2BB59E1C00E9E4AC /* ToDoItem.swift */; };
-		BA20D20F2BB59FF900E9E4AC /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D20E2BB59FF900E9E4AC /* TaskView.swift */; };
+		BA20D20F2BB59FF900E9E4AC /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D20E2BB59FF900E9E4AC /* CreateTaskView.swift */; };
 		BA20D2162BB5A00E00E9E4AC /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2112BB5A00E00E9E4AC /* TaskStore.swift */; };
 		BA20D2182BB5A00E00E9E4AC /* TaskDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2132BB5A00E00E9E4AC /* TaskDispatcher.swift */; };
 		BA20D2192BB5A00E00E9E4AC /* TaskAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2142BB5A00E00E9E4AC /* TaskAction.swift */; };
 		BA20D21A2BB5A00E00E9E4AC /* TaskState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D2152BB5A00E00E9E4AC /* TaskState.swift */; };
+		BA5332EB2BB5D43C0040E721 /* UpdateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5332EA2BB5D43C0040E721 /* UpdateTaskView.swift */; };
 		BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698322BB0D89200607D45 /* Dispatcher.swift */; };
 		BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698342BB0D89200607D45 /* FluxView.swift */; };
 		BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB698352BB0D89200607D45 /* FluxStore.swift */; };
@@ -126,13 +127,14 @@
 		BA20D2012BB59AFA00E9E4AC /* ToDoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoStore.swift; sourceTree = "<group>"; };
 		BA20D2022BB59AFA00E9E4AC /* ToDoState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoState.swift; sourceTree = "<group>"; };
 		BA20D2032BB59AFA00E9E4AC /* ToDoAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoAction.swift; sourceTree = "<group>"; };
-		BA20D2042BB59AFA00E9E4AC /* ToDoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		BA20D2042BB59AFA00E9E4AC /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		BA20D20A2BB59E1C00E9E4AC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
-		BA20D20E2BB59FF900E9E4AC /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		BA20D20E2BB59FF900E9E4AC /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
 		BA20D2112BB5A00E00E9E4AC /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		BA20D2132BB5A00E00E9E4AC /* TaskDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDispatcher.swift; sourceTree = "<group>"; };
 		BA20D2142BB5A00E00E9E4AC /* TaskAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAction.swift; sourceTree = "<group>"; };
 		BA20D2152BB5A00E00E9E4AC /* TaskState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskState.swift; sourceTree = "<group>"; };
+		BA5332EA2BB5D43C0040E721 /* UpdateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskView.swift; sourceTree = "<group>"; };
 		BAB698322BB0D89200607D45 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		BAB698342BB0D89200607D45 /* FluxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxView.swift; sourceTree = "<group>"; };
 		BAB698352BB0D89200607D45 /* FluxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxStore.swift; sourceTree = "<group>"; };
@@ -356,7 +358,7 @@
 		BA20D20D2BB59FEC00E9E4AC /* ToDoView */ = {
 			isa = PBXGroup;
 			children = (
-				BA20D2042BB59AFA00E9E4AC /* ToDoView.swift */,
+				BA20D2042BB59AFA00E9E4AC /* TaskView.swift */,
 				BA20D2032BB59AFA00E9E4AC /* ToDoAction.swift */,
 				BA20D2002BB59AFA00E9E4AC /* ToDoDispatcher.swift */,
 				BA20D2022BB59AFA00E9E4AC /* ToDoState.swift */,
@@ -368,11 +370,12 @@
 		BA20D2102BB59FFD00E9E4AC /* TaskView */ = {
 			isa = PBXGroup;
 			children = (
-				BA20D20E2BB59FF900E9E4AC /* TaskView.swift */,
+				BA20D20E2BB59FF900E9E4AC /* CreateTaskView.swift */,
 				BA20D2142BB5A00E00E9E4AC /* TaskAction.swift */,
 				BA20D2132BB5A00E00E9E4AC /* TaskDispatcher.swift */,
 				BA20D2152BB5A00E00E9E4AC /* TaskState.swift */,
 				BA20D2112BB5A00E00E9E4AC /* TaskStore.swift */,
+				BA5332EA2BB5D43C0040E721 /* UpdateTaskView.swift */,
 			);
 			path = TaskView;
 			sourceTree = "<group>";
@@ -616,7 +619,7 @@
 			files = (
 				BA20D1C72BB5926C00E9E4AC /* SecondaryButton.swift in Sources */,
 				BA20D1FD2BB5995A00E9E4AC /* Keys.swift in Sources */,
-				BA20D20F2BB59FF900E9E4AC /* TaskView.swift in Sources */,
+				BA20D20F2BB59FF900E9E4AC /* CreateTaskView.swift in Sources */,
 				BA20D1CD2BB5926C00E9E4AC /* Colors.swift in Sources */,
 				BA20D2182BB5A00E00E9E4AC /* TaskDispatcher.swift in Sources */,
 				BA20D1C22BB5926C00E9E4AC /* PrimaryLabel.swift in Sources */,
@@ -630,7 +633,7 @@
 				BA20D1F82BB5975900E9E4AC /* CrashlyticsAdapter.swift in Sources */,
 				BAB6983B2BB0D89200607D45 /* Dispatcher.swift in Sources */,
 				BAB698402BB0D89200607D45 /* FluxState.swift in Sources */,
-				BA20D2092BB59AFA00E9E4AC /* ToDoView.swift in Sources */,
+				BA20D2092BB59AFA00E9E4AC /* TaskView.swift in Sources */,
 				BA20D1BF2BB5926C00E9E4AC /* IconImage.swift in Sources */,
 				BAB6983C2BB0D89200607D45 /* FluxView.swift in Sources */,
 				BA02B46F2BB0D38A00517BCB /* ContentView.swift in Sources */,
@@ -657,6 +660,7 @@
 				BA20D2052BB59AFA00E9E4AC /* ToDoDispatcher.swift in Sources */,
 				BA20D2082BB59AFA00E9E4AC /* ToDoAction.swift in Sources */,
 				BAE67D402BAF0F9400C8A696 /* FluxSwiftApp.swift in Sources */,
+				BA5332EB2BB5D43C0040E721 /* UpdateTaskView.swift in Sources */,
 				BAB698412BB0D89200607D45 /* Action_Flux.swift in Sources */,
 				BAB6983D2BB0D89200607D45 /* FluxStore.swift in Sources */,
 			);
